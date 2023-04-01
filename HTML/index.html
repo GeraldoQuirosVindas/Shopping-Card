@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping card</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="products">
+            <h2>Shopping Card</h2>
+            <hr>
+            <table class="table-products">
+                <tr>
+                    <th>PRODUCT DETAILS</th>
+                    <th>QUANTITY</th>
+                    <th>PRICE</th>
+                    <th>TOTAL</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="img-card">
+                            <img src="../Media/thelastofus.jpg" alt="The last of us">
+                            <div class="img-card-info">
+                                <p>The last of us</p>
+                                <p>PS 5</p>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$90.99</td>
+                    <td>$90.99</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="img-card">
+                            <img src="../Media/metro.jpg" alt="Metro">
+                            <div class="img-card-info">
+                                <p>Metro Exodus </p>
+                                <p>PS 5</p>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$90.99</td>
+                    <td>$90.99</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="img-card">
+                            <img src="../Media/uncharted.jpg" alt="Uncharted">
+                            <div class="img-card-info">
+                                <p>Uncharted</p>
+                                <p>PS 5</p>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$90.99</td>
+                    <td>$90.99</td>
+                </tr>
+            </table>
+        </section>
+        <section class="summary">
+            <h2>Order Summary</h2>
+            <hr>
+            <div class="items">
+                <h3>ITEMS #</h3>
+                <p>$ 00.00</p>
+            </div>
+            <div class="shipping">
+                <h3>SHIPPING</h3>
+                <select Name="shipping-name">  
+                    <option> List item 1 </option>  
+                    <option> List item 2 </option>  
+                    <option> List item 3 </option>  
+                    <option> List item N </option>  
+                </select>  
+            </div>
+            <div class="promo-code">
+                <h3>PROMO CODE</h3>
+                <input type="text" name="promo-code" id="promo">
+                <button class="btn-apply">APPLY</button>
+            </div>
+
+            <hr>
+
+            <div class="total">
+                <h3>TOTAL COST</h3>
+                <p>$00.00</p>
+                <button class="btn-checkout">CHECK OUT</button>
+            </div>
+        </section>
+    </div>
+    <br>
+    <br>
+</body>
+
+</html>
